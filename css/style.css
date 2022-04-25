@@ -48,8 +48,7 @@ body {
 /* Header */
 
 .site-header {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 0;
 }
 
 .site-header__content {
@@ -107,7 +106,7 @@ body {
 
 @keyframes pastgaTush {
   from {
-    transform: translateY(-160px);
+    transform: translateY(-190px);
   }
 
   to {
@@ -153,13 +152,6 @@ body {
   padding: 20px 0;
 }
 
-.site-hero__content {
-  max-width: 730px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .site-hero__title {
   font-family: 'Roboto';
   font-style: normal;
@@ -167,16 +159,16 @@ body {
   font-size: 50px;
   line-height: 70px;
   color: #fff;
-  margin: 4px;
   text-align: center;
+  margin: 0;
   margin-bottom: 20px;
-  animation-name: userQimirla;
+  /* animation-name: userQimirla;
 	animation-duration: 2s;
-	animation-iteration-count: 1;
+	animation-iteration-count: 1; */
 
 }
 
-@keyframes userQimirla {
+/* @keyframes userQimirla {
 	from {
 		transform: translateX(-160px);
 	}
@@ -184,9 +176,9 @@ body {
 	to {
 		transform: translateX(0px);
 	}
-}
+} */
 
-.animation {
+/* .animation {
   animation-name: imgQimirla;
 	animation-duration: 2s;
 	animation-iteration-count: 1;
@@ -200,14 +192,28 @@ body {
 	to {
 		transform: translateX(0px);
 	}
-}
+} */
 
 
 .first-img-hero {
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
+.second-img-hero {
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.sort-img-hero {
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.four-img-hero {
+  border-radius: 10px;
+  margin-top: 20px;
+}
 
 @media only screen and (min-width: 768px) {
 
@@ -244,13 +250,72 @@ body {
   /* Main */
 
   .site-hero {
-    background-size: cover;
+    padding: 40px 0;
+  }
+
+  .first-content {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 40px 0;
+  }
+
+  .second-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 40px 0;
+  }
+
+  .sort-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+  }
+
+  .four-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 40px 0;
   }
 
   .site-hero__title {
-    max-width: 300px;
-    text-align: start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 90px;
+    color: #fff;
+    margin: 0;
+    margin-top: 50px;
+
+
   }
+
+  .first-img-hero {
+    max-width: 500px;
+    margin: 0;
+
+  }
+
+  .second-img-hero {
+    max-width: 500px;
+    margin: 0;
+
+  }
+
+  .sort-img-hero {
+    max-width: 500px;
+    margin: 0;
+
+  }
+
+  .four-img-hero {
+    max-width: 500px;
+    margin: 0;
+
+  }
+
 
 
 
