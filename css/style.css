@@ -33,7 +33,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background-color: #000;
+  background-color: tomato;
 }
 
 .container {
@@ -156,7 +156,7 @@ body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 51px;
   line-height: 70px;
   color: #fff;
   text-align: center;
@@ -166,6 +166,17 @@ body {
 	animation-duration: 2s;
 	animation-iteration-count: 1; */
 
+}
+
+.site-hero__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #fff;
+  text-align: center;
+  margin: 0;
 }
 
 /* @keyframes userQimirla {
@@ -213,6 +224,105 @@ body {
 .four-img-hero {
   border-radius: 10px;
   margin-top: 20px;
+}
+
+
+/* Footer */
+
+.site-footer {
+  padding: 40px 0;
+}
+
+.site-footer__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-footer__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.site-footer__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 80px;
+  color: #fff;
+  margin: 0;
+}
+
+.icons {
+  text-decoration: none;
+  color: #fff;
+  display: inline-flex;
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.icons:hover {
+  opacity: 0.8;
+}
+
+.icons:active {
+  opacity: 0.6;
+}
+
+.telegram-icon::before {
+  position: absolute;
+  width: 22px;
+  height: 24px;
+  background-image: url("../img/telegram-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  left: 0px;
+  top: -2px;
+}
+
+.instagram-icon::before {
+  position: absolute;
+  width: 22px;
+  height: 24px;
+  background-image: url("../img/instagram-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  left: 0px;
+  top: -2px;
+}
+
+.phone-icon::before {
+  position: absolute;
+  width: 22px;
+  height: 24px;
+  background-image: url("../img/phone-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  left: 0px;
+  top: -2px;
+}
+
+.gmail-icon::before {
+  position: absolute;
+  width: 22px;
+  height: 24px;
+  background-image: url("../img/mail-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  left: 0px;
+  top: -2px;
+}
+
+.location {
+  max-width: 410px;
+  border: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -287,9 +397,19 @@ body {
     line-height: 90px;
     color: #fff;
     margin: 0;
-    margin-top: 50px;
+    margin-bottom: 10px;
+  }
 
-
+  .site-hero__text {
+    max-width: 580px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
   }
 
   .first-img-hero {
@@ -317,7 +437,21 @@ body {
   }
 
 
+  /* Footer */
 
+  .site-footer__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
+  .site-footer__list {
+    margin-left: 30px;
+  }
+
+  .location {
+    max-width: 600px;
+    margin-left: 90px;
+  }
 
 }
