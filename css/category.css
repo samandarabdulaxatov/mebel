@@ -1,4 +1,3 @@
-
 .site-header {
   padding: 40px 0;
 }
@@ -48,14 +47,14 @@
   width: 335px;
   z-index: 4;
   overflow: auto;
-  /* animation-name: pastgaTush;
+  animation-name: pastgaTush;
 	animation-duration: 1s;
-	animation-iteration-count: 1; */
+	animation-iteration-count: 1;
   text-align: center;
   background: linear-gradient(111.32deg, #474285 -9.86%, #648CF3 100%);
 
 }
-/*
+
 @keyframes pastgaTush {
   from {
     transform: translateY(-190px);
@@ -64,7 +63,7 @@
   to {
     transform: translateY(0px);
   }
-} */
+}
 
 
 .site-header__sitenav {
@@ -93,15 +92,15 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 2px;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   text-decoration: none;
   color: #fff;
 }
 
 /* Main */
 
-.about-site-hero {
-  padding: 60px 0;
+.category-section {
+  padding: 40px 0;
 }
 
 .site-title {
@@ -114,50 +113,20 @@
   text-align: center;
   margin: 0;
   margin-bottom: 20px;
-  margin-top: 20px;
-  /* animation-name: userQimirla;
-	animation-duration: 2s;
-	animation-iteration-count: 1; */
-
 }
 
-
-.hero-list {
+.list {
   padding: 0;
   margin: 0;
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
 }
 
-.hero-item {
-  max-width: 410px;
-  display: flex;
-  padding: 40px 30px 50px 100px;
-  background-color: azure;
-  border-radius: 10px;
+.item {
   margin-bottom: 30px;
 }
 
-.hero_title {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 40px;
-  color: #000;
-  margin: 0;
-}
-
-.hero_text {
-  max-width: 201px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 25px;
-  margin: 0;
-  opacity: 0.5;
+.img {
+  border-radius: 10px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -173,48 +142,14 @@
     margin: 0;
     margin-bottom: 20px;
     margin-top: 20px;
-
   }
 
-  .hero-list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  .list {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .hero-item {
-    max-width: 410px;
-    padding: 40px 42px 50px 100px;
-    background-color: azure;
-    border-radius: 15px;
-    margin-bottom: 20px;
-
-  }
-
-  .hero-item {
-    margin-left: 20px;
-  }
-
-  .hero_title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 40px;
-    color: #000;
-    margin: 0;
-  }
-
-  .hero_text {
-    max-width: 201px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 25px;
-    margin: 0;
-    opacity: 0.5;
+  .item {
+    margin-bottom: 30px;
   }
 }
