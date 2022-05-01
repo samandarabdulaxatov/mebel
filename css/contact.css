@@ -45,6 +45,8 @@ body {
   margin-right: auto;
 }
 
+/* Header */
+
 .site-header {
   padding: 40px 0;
 }
@@ -80,7 +82,7 @@ body {
   cursor: pointer;
 }
 
-.site-header--open .site-header__toggler {
+.header--open .site-header__toggler {
   position: relative;
   z-index: 5;
   background-image: url('../img/closer.svg');
@@ -88,7 +90,7 @@ body {
   height: 18px;
 }
 
-.site-header--open .site-header__sitenav {
+.header--open .site-header__sitenav {
   position: absolute;
   display: block;
   width: 335px;
@@ -99,6 +101,7 @@ body {
 	animation-iteration-count: 1;
   text-align: center;
   background: transparent;
+
 }
 
 @keyframes pastgaTush {
@@ -141,67 +144,4 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-}
-
-/* Main */
-
-.category-section {
-  padding: 40px 0;
-}
-
-.site-title {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 50px;
-  line-height: 80px;
-  color: #fff;
-  text-align: center;
-  margin: 0;
-  margin-bottom: 20px;
-}
-
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.item {
-  margin-bottom: 30px;
-}
-
-.img {
-  border-radius: 10px;
-}
-
-@media only screen and (min-width: 768px) {
-
-  .site-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 65px;
-    line-height: 120px;
-    color: #fff;
-    text-align: center;
-    margin: 0;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-
-  .list {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .item {
-    margin-bottom: 30px;
-    margin-left: 30px;
-  }
-
-  .item:nth-child(4) {
-    margin-left: 220px;
-  }
-
 }

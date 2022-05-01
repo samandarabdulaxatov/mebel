@@ -82,7 +82,7 @@ body {
   cursor: pointer;
 }
 
-.site-header--open .site-header__toggler {
+.header--open .site-header__toggler {
   position: relative;
   z-index: 5;
   background-image: url('../img/closer.svg');
@@ -90,7 +90,7 @@ body {
   height: 18px;
 }
 
-.site-header--open .site-header__sitenav {
+.header--open .site-header__sitenav {
   position: absolute;
   display: block;
   width: 335px;
@@ -100,7 +100,7 @@ body {
 	animation-duration: 1s;
 	animation-iteration-count: 1;
   text-align: center;
-  background: linear-gradient(111.32deg, #474285 -9.86%, #648CF3 100%);
+  background: transparent;
 
 }
 
