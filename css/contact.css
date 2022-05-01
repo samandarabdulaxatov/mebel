@@ -145,3 +145,28 @@ body {
   text-decoration: none;
   color: #fff;
 }
+
+/* Main */
+
+.contact-page {
+  padding: 40px 0;
+}
+
+
+.site-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 80px;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.contact {
+  background-image: url('../img/hero-first-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
